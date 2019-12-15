@@ -1,0 +1,219 @@
+
+
+body {
+  background:  url(background.jpg);
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: #1dc8cd;
+  transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #1dc9ce;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+
+/* Sections Header
+--------------------------------*/
+
+.section-header .section-title {
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  font-weight: 400;
+}
+
+.section-header .section-description {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #777;
+  font-style: italic;
+}
+
+.section-header .section-divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1dc8cd;
+  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Section with background
+--------------------------------*/
+
+.section-bg {
+  background: #eff5f5;
+}
+
+/* About Us Section
+--------------------------------*/
+
+#about {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+#about .about-img {
+  height: 510px;
+  overflow: hidden;
+}
+
+#about .about-img img {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+#about .content .h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#about .content h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+#about .content p {
+  line-height: 26px;
+}
+
+#about .content p:last-child {
+  margin-bottom: 0;
+}
+
+#about .content i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1dc8cd;
+}
+
+#about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about .content ul li {
+  padding-bottom: 10px;
+}
+
+/* Contact Section
+--------------------------------*/
+
+#contact {
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 60px 0;
+  overflow: hidden;
+  background-image: url(img1/back.jpg);
+}
+
+#contact .contact-about h3 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #F25022;
+}
+
+#contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #7FBA00;
+}
+
+#contact .social-links {
+  padding-bottom: 20px;
+}
+
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #FFB900;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #737373;
+}
+
+#contact .social-links a:hover {
+  background: #1dc8cd;
+  color: #fff;
+}
+
+#contact .info {
+  color: #333333;
+}
+
+#contact .info i {
+  font-size: 32px;
+  color: #00A4EF;
+  float: left;
+  line-height: 1;
+}
+
+#contact .info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+
+
+@media (max-width: 768px) {
+
+  #about .about-img {
+    height: auto;
+  }
+
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+
+  
+}
